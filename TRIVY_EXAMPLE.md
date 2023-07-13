@@ -15,10 +15,10 @@ Added result enrichment using git fetch to get commit data per result.
  
 ## Additional requirements
   
-  Result enrichment from git commits can be configured using the `TRIVY_FETCH_DEPTH` environment variable
-    -1 = disables the feature and will not enrich results
-    0 = will get all prev commits
-    default = 100 - we fetch 100 past commits, can be configured to any integer larger than 0
+  Result enrichment from git commits can be configured using the `TRIVY_FETCH_DEPTH` environment variable  
+    -1 = disables the feature and will not enrich results  
+    0 = will get all prev commits  
+    default = 100 - we fetch 100 past commits, can be configured to any integer larger than 0  
 
 ## Known Issues
  Result enrichment using git fetch might slow down if a lot of commit data is fetched. 
