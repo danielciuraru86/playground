@@ -1,5 +1,5 @@
 
-# Trivy-Plugin-Aqua v0.141.0
+# Trivy-Plugin-Aqua --- v0.141.0
  
 ## 2023-07-09
  
